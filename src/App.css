@@ -147,6 +147,19 @@ nav {
   justify-content: center;
   align-items: flex-start;
 }
+.home-image-section img {
+  width: 100%; /* Ensure the image scales properly */
+  animation: rotate 10s linear infinite; /* Apply rotation animation */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Start at 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* Complete a full rotation */
+  }
+}
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
@@ -208,9 +221,23 @@ nav {
   left: -150px;
   z-index: -2;
 }
+
 .about-section-image-container {
   flex: 0.9;
   margin-right: 1rem;
+}
+.about-section-image-container img {
+  width: 100%; /* Ensure the image scales properly */
+  animation: rotate 15s linear infinite; /* Apply rotation animation */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Start at 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* Complete a full rotation */
+  }
 }
 .about-section-text-container {
   flex: 1;
