@@ -15,10 +15,10 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-            Food Is An Important Part Of A Balanced Diet
+          Food Is An Important Part Of A Balanced Diet
         </h1>
         <p className="primary-text">
-        Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
+          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
           elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
         </p>
         <p className="primary-text">
